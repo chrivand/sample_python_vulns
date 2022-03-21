@@ -1,4 +1,8 @@
+# -*- coding: utf-8 -*-
 import os
 
-file_location = input('\nType location: ') # /Users/christophervandermade/../secrets.txt
-os.path.split(file_location) == True
+file_location = input('\nType location: ') # /Users/christophervandermade/../area51.txt
+
+# open and read file
+#file = open(file_location, "r")
+#print(file.read())

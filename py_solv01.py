@@ -1,7 +1,11 @@
+# -*- coding: utf-8 -*-
 import os
 
-file_location = input('\nType location: ') # /Users/christophervandermade/../secrets.txt
-print(file_location)
+file_location = input('\nType location: ') # /Users/christophervandermade/../area51.txt
+print(f"File path before: {file_location}\n")
 real_path = os.path.realpath(file_location)
-print(real_path)
-os.path.split(real_path) == True
+print(f"File path before: {real_path}")
+
+# open and read file
+#file = open(file_location, "r")
+#print(file.read())

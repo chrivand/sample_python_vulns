@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 # example code snippet py_solv00: Arbitrary Code Execution
 import ast
 
