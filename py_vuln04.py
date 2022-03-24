@@ -6,4 +6,4 @@ def update_details(request, acc_id):
     form = AccountForm(instance=user,request=request)  
     ...  
   else:  
- 	  # DENY ACTION 
+    # DENY ACTION
