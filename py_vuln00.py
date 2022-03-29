@@ -9,4 +9,4 @@ else:
 
 # 2*2
 # __import__("os").system("ls")
-# __import__('os').system('rm –rf /') [DO NOT RUN THIS!]
+# __import__('os').system('rm –rf /') [DANGEROUS, DO NOT RUN THIS!]
