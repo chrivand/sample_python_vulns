@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-# set variable to assert
+# set variable to assert:
 var_to_assert = "hello"
 
 # if condition returns True, then nothing happens:
