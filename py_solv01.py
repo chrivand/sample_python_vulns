@@ -9,11 +9,11 @@ safe_dir = "/Users/christophervandermade/Documents/GitHub/sample_python_vulns/"
 
 # ask for user input
 requested_path = input('\nType location: ') 
-print(f"File path before: {requested_path}\n")
+print(f"Inputted file path: {requested_path}\n")
 
 # clean input
 requested_real_path = os.path.realpath(requested_path)
-print(f"File path after: {requested_real_path}\n")
+print(f"Real file path: {requested_real_path}\n")
 
 # print longest common prefix
 prefix = os.path.commonprefix((requested_real_path,safe_dir))

@@ -28,14 +28,14 @@ def validate(user_input):
             valid_op = isinstance(node.op, BINARY_OPS)
             return valid_op and _is_arithmetic(node.left) and _is_arithmetic(node.right)
         else:
-            raise ValueError('Unsupported type {}'.format(node))
-
+            raise ValueError(f"Unsupported type {node}")
+    
     try:
         # parse input to Abstract Syntax Tree
         ast_tree = ast.parse(user_input, mode='eval')
         
         # print AST (just for educational purposes)
-        # astpretty.pprint(ast_tree)
+        #astpretty.pprint(ast_tree)
         
         # run ast object through function to check nodes
         return _is_arithmetic(ast_tree)
@@ -48,9 +48,11 @@ compute_user_input = input('\nType something here to compute: ')
 if not compute_user_input:
 	raise Exception("No input")
 if validate(compute_user_input):
-    print("Result: ", eval(compute_user_input))
+    print(f"Result: {eval(compute_user_input)}")
 else:
 	raise Exception(f"Error, not a mathemetical expression: {compute_user_input}")
 
+# Possible inputs to test:
+# 2*2
 # __import__("os").system("ls")
 # __import__('os').system('rm –rf /') [DANGEROUS, DO NOT RUN THIS!]
