@@ -7,3 +7,4 @@ def update_details(request, acc_id):
     ...  
   else:  
     # DENY ACTION
+    raise Exception("User ID of request does not match DB")
