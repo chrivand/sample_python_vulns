@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Post message to WxT
-      uses: chrivand/action-webex-js@main
-      with:
-        TOKEN: ${{ secrets.TOKEN }}
-        ROOMID: ${{ secrets.ROOMID }}
-        MESSAGE: Hello, world!
+        uses: chrivand/action-webex-js@main
+        with:
+          TOKEN: ${{ secrets.TOKEN }}
+          ROOMID: ${{ secrets.ROOMID }}
+          MESSAGE: Hello, world!
