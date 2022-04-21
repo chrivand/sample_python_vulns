@@ -1,4 +1,4 @@
-name: Post message to WxT
+name: Webex JS Action
 
 on: 
   push:
