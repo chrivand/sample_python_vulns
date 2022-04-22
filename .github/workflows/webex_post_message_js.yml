@@ -14,6 +14,6 @@ jobs:
       - name: Post Message to Webex Room
         uses: chrivand/action-webex-js@main
         env:
-          TOKEN: ${{ secrets.TOKEN }}
-          ROOMID: ${{ secrets.ROOMID }}
-          MESSAGE: Hello, world!
+          WEBEX_TOKEN: ${{ secrets.WEBEX_TOKEN }}
+          WEBEX_ROOM_ID: ${{ secrets.WEBEX_ROOM_ID }}
+          MARKDOWN_MESSAGE: **Hello, world!**
