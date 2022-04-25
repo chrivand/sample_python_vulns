@@ -19,4 +19,4 @@ jobs:
           MARKDOWN_MESSAGE: "**Hello World**"
       - name: Print GitHub event action
         run: |
-          echo "${{ github.event.action }}"
+          echo "${{ event.action }}"
