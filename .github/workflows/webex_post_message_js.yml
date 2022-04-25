@@ -16,4 +16,4 @@ jobs:
         env:
           WEBEX_TOKEN: ${{ secrets.WEBEX_TOKEN }}
           WEBEX_ROOM_ID: ${{ secrets.WEBEX_ROOM_ID }}
-          MARKDOWN_MESSAGE: ${{ github.event }}
+          MARKDOWN_MESSAGE: "${{ github.event }}"
