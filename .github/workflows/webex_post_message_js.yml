@@ -16,7 +16,4 @@ jobs:
         env:
           WEBEX_TOKEN: ${{ secrets.WEBEX_TOKEN }}
           WEBEX_ROOM_ID: ${{ secrets.WEBEX_ROOM_ID }}
-          MARKDOWN_MESSAGE: "**Hello World**"
-      - name: Print GitHub event action
-        run: |
-          echo "${{ github.repository }}"
+          MARKDOWN_MESSAGE: "**Hello, world! You just ran an action from ${{ github.repository }}**"
