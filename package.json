@@ -1,4 +1,7 @@
 {
-  "name": "node-ipc",
-  "version": "10.1.1"
+  "name": "test-package",
+  "version": "1.0.0",
+  "dependencies": {
+    "node-ipc": "10.1.2"
+  }
 }
