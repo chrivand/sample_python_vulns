@@ -2,6 +2,6 @@
   "name": "test-package",
   "version": "1.0.0",
   "dependencies": {
-    "node-ipc": "10.1.3"
+    "node-ipc": "10.1.2"
   }
 }
